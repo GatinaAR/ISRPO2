@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "TaskFirst";
+}
+
+<h1 style="color:#9ACEEB">Задание №1</h1>
+<div id="TaskFirstSolution">
+     <form method="post">
+        <p style="color:#9ACEEB">
+             <label>Введите число:</label>
+             <input type="number" name="Number" />
+            
+        </p>
+
+        <p>
+            <input style="background-color:#9ACEEB" type="submit" value="Вычислить" />
+            
+        </p>
+        <p style="color:#9ACEEB">
+             <label>Результат:</label>
+             <label>@ViewBag.Result</label>
+            
+        </p>
+        
+    </form>
+    
+</div>
+
